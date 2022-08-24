@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  cursor: default;
+}
+
+.error-infos h1 {
+  color: rgba(205, 136, 7, 0.9);
+  font-family: 'Rubik Iso', cursive;;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+.error-infos h2 {
+  color: rgba(205, 136, 7, 0.9);
+  font-family: 'Rubik Iso', cursive;;
+  font-size: 28px;
+}
+
+img {
+  width :420px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  -ms-user-drag: none;
+}
+
+.help h2 {
+  color: rgba(111, 135, 186, 1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+}
+.help p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(205, 136, 7, 0.9);
+}
